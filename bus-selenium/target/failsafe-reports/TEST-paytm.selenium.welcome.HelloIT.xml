@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="paytm.selenium.welcome.HelloIT" time="64.128" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Devops\maven\bus"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Devops\maven\bus"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\VINAYS~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="D:\DevOps tools\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\DevOps tools\apache-maven-3.6.3\bin;C:\Program Files\PuTTY\;."/>
+    <property name="maven.conf" value="D:\DevOps tools\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="library.jansi.path" value="D:\DevOps tools\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\vinayshankar"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="vinayshankar"/>
+    <property name="java.class.path" value="D:\DevOps tools\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\DevOps tools\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testHelloWorld" classname="paytm.selenium.welcome.HelloIT" time="0.015">
+    <error message="Error creating bean with name &apos;paytm.selenium.welcome.HelloIT&apos;: Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.openqa.selenium.WebDriver paytm.selenium.welcome.HelloIT.webDriver; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;webDriver&apos; defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: &#10;DEBUG	Save changes&#10;1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded&#10;1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes&#10;Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5&#10;XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9&#10;get@resource://gre/modules/XPCOMUtils.jsm:199:21&#10;_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1&#10;initialize@resource:///modules/CustomizableUI.jsm:186:5&#10;@resource:///modules/CustomizableUI.jsm:4531:1&#10;XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9&#10;get@resource://gre/modules/XPCOMUtils.jsm:199:21&#10;@chrome://browser/content/ext-browserAction.js:60:5&#10;get@resource://gre/modules/XPCOMUtils.jsm:199:21&#10;onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7&#10;asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14&#10;&#10;1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0&#10;JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]&#10;JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.&#10;[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346&#10;1578213964534	addons.manager	DEBUG	shutdown&#10;1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider&#10;1578213964536	addons.xpi	DEBUG	shutdown&#10;1578213964536	addons.xpi-utils	DEBUG	shutdown&#10;1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager&#10;1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider&#10;1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider&#10;1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider&#10;1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty&#10;1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write&#10;1578213964556	addons.manager	DEBUG	Async provider shutdown done&#10;1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded&#10;*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping&#10;[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346&#10;JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close&#10;&#10;Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;&#10;System info: host: &apos;vinay&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: driver.version: FirefoxDriver" type="org.springframework.beans.factory.BeanCreationException">org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'paytm.selenium.welcome.HelloIT': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.openqa.selenium.WebDriver paytm.selenium.welcome.HelloIT.webDriver; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'vinay', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Could not autowire field: org.openqa.selenium.WebDriver paytm.selenium.welcome.HelloIT.webDriver; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'vinay', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'webDriver' defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'vinay', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'vinay', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.openqa.selenium.WebDriverException: 
+Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'vinay', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.openqa.selenium.firefox.NotConnectedException: 
+Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+</error>
+    <system-out><![CDATA[14:15:47.543 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class paytm.selenium.welcome.HelloIT]
+14:15:47.558 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:15:47.574 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:15:47.621 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [paytm.selenium.welcome.HelloIT] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+14:15:47.699 [main] DEBUG org.springframework.test.context.support.AbstractDelegatingSmartContextLoader - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@3159c4b8 declaringClass = 'paytm.selenium.welcome.HelloIT', classes = '{}', locations = '{classpath:META-INF/spring/seleniumContext.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+14:15:47.730 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [paytm.selenium.welcome.HelloIT]
+14:15:47.746 [main] DEBUG org.springframework.test.context.support.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [paytm.selenium.welcome.HelloIT]: using defaults.
+14:15:47.777 [main] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14:15:47.808 [main] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+14:15:47.871 [main] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6737fd8f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@72b6cbcc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@a7e666, org.springframework.test.context.transaction.TransactionalTestExecutionListener@68bbe345, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@30b8a058]
+14:15:47.886 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [paytm.selenium.welcome.HelloIT]
+14:15:47.886 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [paytm.selenium.welcome.HelloIT]
+14:15:47.902 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class paytm.selenium.welcome.HelloIT]
+14:15:47.902 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:15:47.902 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:15:47.902 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [paytm.selenium.welcome.HelloIT] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+14:15:47.918 [main] DEBUG org.springframework.test.context.support.AbstractDelegatingSmartContextLoader - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@4e7dc304 declaringClass = 'paytm.selenium.welcome.HelloIT', classes = '{}', locations = '{classpath:META-INF/spring/seleniumContext.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+14:15:47.918 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [paytm.selenium.welcome.HelloIT]
+14:15:47.918 [main] DEBUG org.springframework.test.context.support.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [paytm.selenium.welcome.HelloIT]: using defaults.
+14:15:47.933 [main] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14:15:47.933 [main] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+14:15:47.933 [main] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1f7030a6, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5a1c0542, org.springframework.test.context.support.DirtiesContextTestExecutionListener@396f6598, org.springframework.test.context.transaction.TransactionalTestExecutionListener@394e1a0f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@27a5f880]
+14:15:47.933 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [paytm.selenium.welcome.HelloIT]
+14:15:47.933 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [paytm.selenium.welcome.HelloIT]
+14:15:47.933 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [paytm.selenium.welcome.HelloIT]
+14:15:47.933 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [paytm.selenium.welcome.HelloIT]
+14:15:47.933 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [paytm.selenium.welcome.HelloIT]
+14:15:47.933 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [paytm.selenium.welcome.HelloIT]
+14:15:47.949 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@74650e52 testClass = HelloIT, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@15d0c81b testClass = HelloIT, locations = '{classpath:META-INF/spring/seleniumContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+14:15:47.949 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [paytm.selenium.welcome.HelloIT]
+14:15:47.949 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [paytm.selenium.welcome.HelloIT]
+14:15:47.949 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@74650e52 testClass = HelloIT, testInstance = paytm.selenium.welcome.HelloIT@1b68ddbd, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@15d0c81b testClass = HelloIT, locations = '{classpath:META-INF/spring/seleniumContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]].
+14:15:47.949 [main] DEBUG org.springframework.test.context.support.AbstractDelegatingSmartContextLoader - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@15d0c81b testClass = HelloIT, locations = '{classpath:META-INF/spring/seleniumContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+14:15:47.949 [main] DEBUG org.springframework.test.context.support.AbstractGenericContextLoader - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@15d0c81b testClass = HelloIT, locations = '{classpath:META-INF/spring/seleniumContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+14:15:48.355 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:15:48.371 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:15:48.371 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:15:48.527 [main] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [META-INF/spring/seleniumContext.xml]
+14:15:48.824 [main] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+14:15:49.168 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver - Loading schema mappings from [META-INF/spring.schemas]
+14:15:49.168 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver - Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/cache/spring-cache-4.2.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/data/repository/spring-repository-1.4.xsd=org/springframework/data/repository/config/spring-repository-1.4.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/security/spring-security-3.0.3.xsd=org/springframework/security/config/spring-security-3.0.3.xsd, http://www.springframework.org/schema/security/spring-security-2.0.1.xsd=org/springframework/security/config/spring-security-2.0.1.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.2.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/task/spring-task-4.2.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-4.2.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/security/spring-security-2.0.xsd=org/springframework/security/config/spring-security-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/data/repository/spring-repository-1.8.xsd=org/springframework/data/repository/config/spring-repository-1.8.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/util/spring-util-4.2.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/data/repository/spring-repository.xsd=org/springframework/data/repository/config/spring-repository-1.11.xsd, http://www.springframework.org/schema/data/repository/spring-repository-1.7.xsd=org/springframework/data/repository/config/spring-repository-1.7.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/security/spring-security-2.0.4.xsd=org/springframework/security/config/spring-security-2.0.4.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/security/spring-security-3.2.xsd=org/springframework/security/config/spring-security-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/data/repository/spring-repository-1.6.xsd=org/springframework/data/repository/config/spring-repository-1.6.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-4.2.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/security/spring-security-3.1.xsd=org/springframework/security/config/spring-security-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/data/repository/spring-repository-1.0.xsd=org/springframework/data/repository/config/spring-repository-1.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.2.xsd=org/springframework/aop/config/spring-aop-4.2.xsd, http://www.springframework.org/schema/security/spring-security-4.0.xsd=org/springframework/security/config/spring-security-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.2.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/data/repository/spring-repository-1.5.xsd=org/springframework/data/repository/config/spring-repository-1.5.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/security/spring-security-2.0.2.xsd=org/springframework/security/config/spring-security-2.0.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.2.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-4.2.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/security/spring-security.xsd=org/springframework/security/config/spring-security-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://dozer.sourceforge.net/schema/dozer-spring.xsd=dozer-spring.xsd, http://www.springframework.org/schema/security/spring-security-3.0.xsd=org/springframework/security/config/spring-security-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-4.2.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/data/repository/spring-repository-1.11.xsd=org/springframework/data/repository/config/spring-repository-1.11.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.2.xsd}
+14:15:49.183 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.2.xsd
+14:15:49.480 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-4.2.xsd
+14:15:49.527 [main] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.2.xsd
+14:15:49.574 [main] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader - Loading bean definitions
+14:15:49.605 [main] DEBUG org.springframework.beans.factory.xml.DefaultNamespaceHandlerResolver - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/data/repository=org.springframework.data.repository.config.RepositoryNameSpaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/security=org.springframework.security.config.SecurityNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://dozer.sourceforge.net/schema/dozer-spring=org.dozer.spring.DozerNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/data/keyvalue=org.springframework.data.keyvalue.repository.config.KeyValueRepositoryNameSpaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+14:15:49.652 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from location pattern [classpath:META-INF/spring/seleniumContext.xml]
+14:15:49.699 [main] INFO org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@3d921e20: startup date [Sun Jan 05 14:15:49 IST 2020]; root of context hierarchy
+14:15:49.699 [main] DEBUG org.springframework.context.support.GenericApplicationContext - Bean factory for org.springframework.context.support.GenericApplicationContext@3d921e20: org.springframework.beans.factory.support.DefaultListableBeanFactory@17a7f733: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,webDriver,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory]; root of factory hierarchy
+14:15:49.777 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+14:15:49.777 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+14:15:49.824 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+14:15:49.824 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+14:15:50.043 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+14:15:50.043 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+14:15:50.043 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+14:15:50.183 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [META-INF/spring/] to resources [URL [file:/D:/Devops/maven/bus/bus-selenium/target/test-classes/META-INF/spring/], URL [jar:file:/D:/Devops/maven/bus/bus-domain/target/bus-domain-1.0-SNAPSHOT.jar!/META-INF/spring/]]
+14:15:50.183 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\Devops\maven\bus\bus-selenium\target\test-classes\META-INF\spring]
+14:15:50.183 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\Devops\maven\bus\bus-selenium\target\test-classes\META-INF\spring] for files matching pattern [D:/Devops/maven/bus/bus-selenium/target/test-classes/META-INF/spring/*.properties]
+14:15:50.214 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Devops/maven/bus/bus-domain/target/bus-domain-1.0-SNAPSHOT.jar]
+14:15:50.214 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:META-INF/spring/*.properties] to resources [file [D:\Devops\maven\bus\bus-selenium\target\test-classes\META-INF\spring\selenium.properties]]
+14:15:50.230 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+14:15:50.230 [main] DEBUG org.springframework.core.env.MutablePropertySources - Adding [environmentProperties] PropertySource with lowest search precedence
+14:15:50.246 [main] INFO org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from file [D:\Devops\maven\bus\bus-selenium\target\test-classes\META-INF\spring\selenium.properties]
+14:15:50.246 [main] DEBUG org.springframework.core.env.MutablePropertySources - Adding [localProperties] PropertySource with lowest search precedence
+14:15:50.293 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+14:15:50.293 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+14:15:50.293 [main] INFO org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+14:15:50.293 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+14:15:50.293 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+14:15:50.293 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+14:15:50.293 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+14:15:50.293 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+14:15:50.293 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+14:15:50.293 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+14:15:50.293 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+14:15:50.324 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+14:15:50.324 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+14:15:50.324 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+14:15:50.324 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+14:15:50.324 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+14:15:50.339 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+14:15:50.339 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+14:15:50.339 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+14:15:50.339 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+14:15:50.339 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+14:15:50.386 [main] DEBUG org.springframework.context.support.GenericApplicationContext - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@273e7444]
+14:15:50.402 [main] DEBUG org.springframework.context.support.GenericApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@3527942a]
+14:15:50.402 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@17a7f733: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,webDriver,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+14:15:50.402 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+14:15:50.402 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+14:15:50.402 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+14:15:50.418 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+14:15:50.418 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+14:15:50.418 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+14:15:50.418 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+14:15:50.449 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+14:15:50.464 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+14:15:50.464 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+14:15:50.464 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+14:15:50.464 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+14:15:50.480 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+14:15:50.480 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+14:15:50.480 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+14:15:50.480 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+14:15:50.621 [main] DEBUG org.springframework.context.support.GenericApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@1349883]
+14:15:50.621 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+14:15:50.636 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+14:15:50.636 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+14:15:50.636 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+14:15:50.652 [main] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Storing ApplicationContext in cache under key [[MergedContextConfiguration@15d0c81b testClass = HelloIT, locations = '{classpath:META-INF/spring/seleniumContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+14:15:50.652 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@909217e size = 1, parentContextCount = 0, hitCount = 0, missCount = 1]
+14:15:50.668 [main] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected element of bean 'paytm.selenium.welcome.HelloIT': AutowiredFieldElement for org.openqa.selenium.WebDriver paytm.selenium.welcome.HelloIT.webDriver
+14:15:50.668 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'webDriver'
+14:16:47.389 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5a1c0542] to prepare test instance [paytm.selenium.welcome.HelloIT@1b68ddbd]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paytm.selenium.welcome.HelloIT': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.openqa.selenium.WebDriver paytm.selenium.welcome.HelloIT.webDriver; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'vinay', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:344)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:269)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:184)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.openqa.selenium.WebDriver paytm.selenium.welcome.HelloIT.webDriver; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'vinay', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 27 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'vinay', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1105)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 29 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'vinay', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:163)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1098)
+	... 38 common frames omitted
+Caused by: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'vinay', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:275)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:116)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:220)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:215)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:124)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:147)
+	... 40 common frames omitted
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:120)
+	... 51 common frames omitted
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:120)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:275)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:116)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:220)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:215)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:124)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:147)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1098)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:344)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:269)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:184)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Jan 05, 2020 2:16:46 PM org.openqa.selenium.os.UnixProcess$SeleniumWatchDog destroyHarder
+INFO: Command failed to close cleanly. Destroying forcefully (v2). org.openqa.selenium.os.UnixProcess$SeleniumWatchDog@2f05be7f
+Jan 05, 2020 2:16:47 PM org.openqa.selenium.os.ProcessUtils killWinProcess
+WARNING: Process refused to die after 10 seconds, and couldn't taskkill it
+java.lang.NullPointerException: Unable to find executable for: taskkill
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:253)
+	at org.openqa.selenium.os.UnixProcess.<init>(UnixProcess.java:62)
+	at org.openqa.selenium.os.CommandLine.<init>(CommandLine.java:38)
+	at org.openqa.selenium.os.WindowsUtils.killPID(WindowsUtils.java:172)
+	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:138)
+	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:248)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:200)
+	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:124)
+	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)
+	at org.openqa.selenium.firefox.FirefoxBinary.quit(FirefoxBinary.java:259)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.quit(NewProfileExtensionConnection.java:202)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.quit(FirefoxDriver.java:376)
+	at org.openqa.selenium.firefox.FirefoxDriver.stopClient(FirefoxDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:220)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:215)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:124)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:147)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1098)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:344)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:269)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:184)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+]]></system-err>
+  </testcase>
+</testsuite>

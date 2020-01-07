@@ -1,0 +1,375 @@
+-------------------------------------------------------------------------------
+Test set: paytm.selenium.welcome.HelloIT
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 64.128 sec <<< FAILURE! - in paytm.selenium.welcome.HelloIT
+testHelloWorld(paytm.selenium.welcome.HelloIT)  Time elapsed: 0.015 sec  <<< ERROR!
+org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'paytm.selenium.welcome.HelloIT': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.openqa.selenium.WebDriver paytm.selenium.welcome.HelloIT.webDriver; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'vinay', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Could not autowire field: org.openqa.selenium.WebDriver paytm.selenium.welcome.HelloIT.webDriver; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'vinay', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'webDriver' defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'vinay', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'vinay', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.openqa.selenium.WebDriverException: 
+Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'vinay', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.openqa.selenium.firefox.NotConnectedException: 
+Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+DEBUG	Save changes
+1578213963687	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963689	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963691	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963694	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963696	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963698	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963700	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963701	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963703	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963710	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963714	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963717	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963722	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963723	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963727	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963732	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963735	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963737	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963747	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963768	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1578213963899	DeferredSave.extensions.json	DEBUG	Write succeeded
+1578213963903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+Extension error: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getBoolPref] resource:///modules/CustomizableWidgets.jsm:1308 :: @resource:///modules/CustomizableWidgets.jsm:1308:5
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+_defineBuiltInWidgets@resource:///modules/CustomizableUI.jsm:368:1
+initialize@resource:///modules/CustomizableUI.jsm:186:5
+@resource:///modules/CustomizableUI.jsm:4531:1
+XPCU_moduleLambda@resource://gre/modules/XPCOMUtils.jsm:309:9
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+@chrome://browser/content/ext-browserAction.js:60:5
+get@resource://gre/modules/XPCOMUtils.jsm:199:21
+onManifestEntry@chrome://browser/content/ext-browserAction.js:100:7
+asyncEmitManifestEntry@resource://gre/modules/ExtensionCommon.jsm:927:14
+
+1578213964366	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 328: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 740: Error: SessionStore is not initialized.
+[Child 2752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1578213964534	addons.manager	DEBUG	shutdown
+1578213964535	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1578213964536	addons.xpi	DEBUG	shutdown
+1578213964536	addons.xpi-utils	DEBUG	shutdown
+1578213964536	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1578213964537	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1578213964539	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1578213964541	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1578213964542	DeferredSave.webext.sc.lz4	DEBUG	Flush called while data is dirty
+1578213964553	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1578213964556	addons.manager	DEBUG	Async provider shutdown done
+1578213964625	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4892] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 410: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+
+
